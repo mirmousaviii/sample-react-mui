@@ -1,4 +1,4 @@
-# Sample Company
+# sample-react-mui
 
 A simple react project
 
@@ -73,3 +73,4 @@ To contribute to this repository, please make a PR.
 * https://nextjs.org
 * https://mui.com
 * https://readme.so
+* https://json-generator.com
