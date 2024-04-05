@@ -20,6 +20,7 @@ coming soon...
 ## TODO
 
 - [x] Use MUI
+- [x] Template structure and base style
 - [ ] Add routes/pages (Home, device List, device details, vulnerabilities list, vulnerabilities details)
 - [ ] Pagination
 - [ ] Sort (sorting in tables)
