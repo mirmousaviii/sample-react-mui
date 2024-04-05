@@ -13,13 +13,19 @@ A simple react project
 * In the **development mode**, the page will reload if you make edits.
 
 
+## Screenshots
+
+coming soon...
+
 ## TODO
 
+- [x] Use MUI
 - [ ] Add routes/pages (Home, device List, device details, vulnerabilities list, vulnerabilities details)
 - [ ] Pagination
 - [ ] Sort (sorting in tables)
 - [ ] export data
 - [ ] Search from tables
+- [ ] Use a mock API
 - [ ] Performance
     - [ ] next/dynamic (next/dynamic is a composite of React.lazy() and Suspense)
     - [ ] Lighthouse
