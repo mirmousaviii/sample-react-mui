@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sample Company
 
-## Getting Started
+A simple react project
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How to use
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Run `npm install` to install all dependencies.
+2. How to start the project:
+* Run `npm run dev` to start the server in the development mode.
+* Run `npm run build` to generate build files, and `npm run start` to start server in production mode. (Use production mode to check dynamic import.)
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* In the **development mode**, the page will reload if you make edits.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## TODO
 
-## Learn More
+- [ ] Add routes/pages (Home, device List, device details, vulnerabilities list, vulnerabilities details)
+- [ ] Pagination
+- [ ] Sort (sorting in tables)
+- [ ] export data
+- [ ] Search from tables
+- [ ] Performance
+    - [ ] next/dynamic (next/dynamic is a composite of React.lazy() and Suspense)
+    - [ ] Lighthouse
+    - [ ] Optimize code
+- [ ] Documentation
+    - [ ] Finalize README.md
+    - [ ] Screenshots
+    - [ ] Storybook
+- [ ] Check Responsiveness
+- [ ] Tests
+    - [ ] Unit Test
+    - [ ] E2E Test
+    - [ ] Interactions by storybook
+    - [ ] Accessibility
+- [ ] CI/CD
+- [ ] Config ESLint
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Feedback
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Please submit an issue on GitHub if you have any feedback
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are always welcome!
+
+To contribute to this repository, please make a PR.
+
+
+## Authors
+
+- Mostafa Mirmousavi [@mirmousaviii](https://github.com/mirmousaviii) [https://mirmousavi.com](https://mirmousavi.com)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## References
+
+* https://reactjs.org
+* https://nextjs.org
+* https://mui.com
+* https://readme.so
